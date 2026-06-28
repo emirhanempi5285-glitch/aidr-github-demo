@@ -1,0 +1,5 @@
+{
+  "applicationName": "CrowdStrike Enterprise HR Platform",
+  "environment": "production",
+  "port": 3000
+}

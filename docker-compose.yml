@@ -1,0 +1,36 @@
+version: "3.9"
+
+services:
+
+  hr-platform:
+
+    build: .
+
+    container_name: hr-platform
+
+    ports:
+
+      - "3000:3000"
+
+    environment:
+
+      PORT: 3000
+
+      NODE_ENV: development
+
+    depends_on:
+
+      - mongodb
+
+  mongodb:
+
+    image: mongo:7
+
+    container_name: mongodb
+
+    ports:
+
+      - "27017:27017"
+
+volumes:
+  mongodb_data:
