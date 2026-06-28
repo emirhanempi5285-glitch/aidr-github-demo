@@ -2,30 +2,29 @@ const mongoose = require("mongoose");
 
 async function connectDatabase() {
 
+    const mongoUri =
+        process.env.MONGODB_URI ||
+        "mongodb://localhost:27017/hr-platform";
+
     try {
 
-        await mongoose.connect(
+        await mongoose.connect(mongoUri);
 
-            process.env.MONGODB_URI ||
+        console.log("==================================");
+        console.log("MongoDB Connected Successfully");
+        console.log(`Database : ${mongoose.connection.name}`);
+        console.log(`Host     : ${mongoose.connection.host}`);
+        console.log("==================================");
 
-            "mongodb://localhost:27017/hr-platform"
+    } catch (error) {
 
-        );
-
-        console.log("MongoDB Connected");
-
-    }
-
-    catch (err) {
-
+        console.error("==================================");
         console.error("MongoDB Connection Failed");
-
-        console.error(err.message);
+        console.error(error.message);
+        console.error("==================================");
 
         process.exit(1);
-
     }
-
 }
 
 module.exports = connectDatabase;

@@ -2,13 +2,19 @@ exports.health = (req, res) => {
 
     res.status(200).json({
 
+        success: true,
+
         status: "Healthy",
 
         application: "CrowdStrike Enterprise HR Platform",
 
-        timestamp: new Date(),
+        version: "1.0.0",
 
-        uptime: process.uptime()
+        environment: process.env.NODE_ENV || "development",
+
+        uptime: process.uptime(),
+
+        timestamp: new Date().toISOString()
 
     });
 
