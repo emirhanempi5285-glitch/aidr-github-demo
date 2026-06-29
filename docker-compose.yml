@@ -1,0 +1,43 @@
+version: "3.9"
+
+services:
+
+  hr-platform:
+
+    build: .
+
+    ports:
+
+      - "3000:3000"
+
+    environment:
+
+      NODE_ENV: development
+
+      PORT: 3000
+
+      MONGODB_URI: mongodb://mongodb:27017/hr-platform
+
+    depends_on:
+
+      - mongodb
+
+  mongodb:
+
+    image: mongo:7
+
+    container_name: hr-platform-db
+
+    restart: always
+
+    ports:
+
+      - "27017:27017"
+
+    volumes:
+
+      - mongodb-data:/data/db
+
+volumes:
+
+  mongodb-data:
