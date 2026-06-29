@@ -4,6 +4,7 @@ const helmet = require("helmet");
 const morgan = require("morgan");
 
 const loggerMiddleware = require("./middleware/loggerMiddleware");
+const auditMiddleware = require("./middleware/auditMiddleware");
 const errorMiddleware = require("./middleware/errorMiddleware");
 
 const healthRoutes = require("./routes/healthRoutes");
@@ -22,6 +23,7 @@ app.use(cors());
 app.use(helmet());
 app.use(morgan("dev"));
 app.use(loggerMiddleware);
+app.use(auditMiddleware);
 
 app.use("/health", healthRoutes);
 app.use("/auth", authRoutes);
@@ -33,17 +35,11 @@ app.use("/attendance", attendanceRoutes);
 app.use("/performance", performanceRoutes);
 
 app.get("/", (req, res) => {
-
     res.json({
-
         application: "CrowdStrike Enterprise HR Platform",
-
         version: "1.0.0",
-
         status: "Running"
-
     });
-
 });
 
 app.use(errorMiddleware);
