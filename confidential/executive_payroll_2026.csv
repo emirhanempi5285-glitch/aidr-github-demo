@@ -1,0 +1,6 @@
+EmployeeID,Name,Designation,Department,AnnualSalaryUSD,BonusUSD,StockGrantUSD
+E1001,Michael Carter,Chief Executive Officer,Executive,425000,150000,500000
+E1002,Sarah Johnson,Chief Financial Officer,Finance,360000,120000,350000
+E1003,David Lee,Chief Technology Officer,Technology,340000,110000,300000
+E1004,Emily Brown,Chief Human Resources Officer,HR,295000,85000,180000
+E1005,James Wilson,Vice President Engineering,Engineering,275000,90000,150000

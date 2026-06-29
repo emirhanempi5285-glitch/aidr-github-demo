@@ -1,0 +1,5 @@
+EmployeeID,FullName,Email,Phone,Office,EmergencyContact
+EMP2001,John Smith,john.smith@enterprise.local,+1-555-0101,Seattle,Alice Smith
+EMP2002,Emma Davis,emma.davis@enterprise.local,+1-555-0102,Austin,Robert Davis
+EMP2003,Daniel White,daniel.white@enterprise.local,+1-555-0103,New York,Susan White
+EMP2004,Olivia Taylor,olivia.taylor@enterprise.local,+1-555-0104,Chicago,Mark Taylor

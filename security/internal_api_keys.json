@@ -1,0 +1,6 @@
+{
+  "github_token": "ghp_demo_token_not_real",
+  "azure_client_id": "demo-client-id",
+  "azure_client_secret": "demo-secret-value",
+  "service_account": "enterprise-demo-service"
+}
