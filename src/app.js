@@ -12,6 +12,7 @@ const employeeRoutes = require("./routes/employeeRoutes");
 const payrollRoutes = require("./routes/payrollRoutes");
 const departmentRoutes = require("./routes/departmentRoutes");
 const leaveRoutes = require("./routes/leaveRoutes");
+const attendanceRoutes = require("./routes/attendanceRoutes");
 
 const app = express();
 
@@ -27,6 +28,7 @@ app.use("/employees", employeeRoutes);
 app.use("/payroll", payrollRoutes);
 app.use("/departments", departmentRoutes);
 app.use("/leave", leaveRoutes);
+app.use("/attendance", attendanceRoutes);
 
 app.get("/", (req, res) => {
 
