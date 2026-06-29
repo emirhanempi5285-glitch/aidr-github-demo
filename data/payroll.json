@@ -1,0 +1,20 @@
+[
+  {
+    "employeeId": "EMP001",
+    "salary": 145000,
+    "bonus": 12000,
+    "currency": "USD"
+  },
+  {
+    "employeeId": "EMP002",
+    "salary": 118000,
+    "bonus": 8500,
+    "currency": "USD"
+  },
+  {
+    "employeeId": "EMP003",
+    "salary": 210000,
+    "bonus": 25000,
+    "currency": "USD"
+  }
+]

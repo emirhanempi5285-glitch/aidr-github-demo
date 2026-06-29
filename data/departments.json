@@ -1,0 +1,17 @@
+[
+  {
+    "departmentId": "D001",
+    "name": "Engineering",
+    "head": "Michael Brown"
+  },
+  {
+    "departmentId": "D002",
+    "name": "Human Resources",
+    "head": "David Wilson"
+  },
+  {
+    "departmentId": "D003",
+    "name": "Finance",
+    "head": "Emma Taylor"
+  }
+]

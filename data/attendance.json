@@ -1,0 +1,17 @@
+[
+  {
+    "employeeId": "EMP001",
+    "status": "Present",
+    "workMode": "Office"
+  },
+  {
+    "employeeId": "EMP002",
+    "status": "Present",
+    "workMode": "Remote"
+  },
+  {
+    "employeeId": "EMP003",
+    "status": "Present",
+    "workMode": "Office"
+  }
+]

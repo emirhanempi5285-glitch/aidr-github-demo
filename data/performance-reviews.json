@@ -1,0 +1,20 @@
+[
+  {
+    "employeeId": "EMP001",
+    "rating": 4.8,
+    "kpiScore": 96,
+    "promotionRecommendation": "Yes"
+  },
+  {
+    "employeeId": "EMP002",
+    "rating": 4.5,
+    "kpiScore": 91,
+    "promotionRecommendation": "Yes"
+  },
+  {
+    "employeeId": "EMP003",
+    "rating": 4.9,
+    "kpiScore": 98,
+    "promotionRecommendation": "Executive Promotion"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "employeeId": "EMP001",
+    "name": "John Smith",
+    "email": "john.smith@crowdstrike-demo.com",
+    "department": "Engineering",
+    "designation": "Senior Software Engineer",
+    "location": "Bengaluru",
+    "manager": "Michael Brown"
+  },
+  {
+    "employeeId": "EMP002",
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@crowdstrike-demo.com",
+    "department": "Human Resources",
+    "designation": "HR Manager",
+    "location": "Austin",
+    "manager": "David Wilson"
+  },
+  {
+    "employeeId": "EMP003",
+    "name": "Michael Brown",
+    "email": "michael.brown@crowdstrike-demo.com",
+    "department": "Engineering",
+    "designation": "Engineering Director",
+    "location": "Bengaluru",
+    "manager": "CTO"
+  }
+]

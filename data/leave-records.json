@@ -1,0 +1,14 @@
+[
+  {
+    "employeeId": "EMP004",
+    "leaveType": "Annual Leave",
+    "status": "Approved",
+    "days": 5
+  },
+  {
+    "employeeId": "EMP002",
+    "leaveType": "Sick Leave",
+    "status": "Approved",
+    "days": 2
+  }
+]
