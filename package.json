@@ -1,13 +1,21 @@
 {
   "name": "aidr-github-demo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "CrowdStrike Enterprise HR Platform",
+  "main": "src/server.js",
   "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "crowdstrike",
+    "github",
+    "mcp",
+    "enterprise",
+    "hr"
+  ],
+  "author": "Manoj Gowda",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
