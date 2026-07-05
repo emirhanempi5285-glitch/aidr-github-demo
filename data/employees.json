@@ -3,6 +3,7 @@
     "employeeId": "EMP001",
     "name": "John Smith",
     "email": "john.smith@crowdstrike-demo.com",
+    "phone": "+1-555-1001",
     "department": "Engineering",
     "designation": "Senior Software Engineer",
     "location": "Bengaluru",
@@ -12,6 +13,7 @@
     "employeeId": "EMP002",
     "name": "Sarah Johnson",
     "email": "sarah.johnson@crowdstrike-demo.com",
+    "phone": "+1-555-1002",
     "department": "Human Resources",
     "designation": "HR Manager",
     "location": "Austin",
@@ -21,9 +23,30 @@
     "employeeId": "EMP003",
     "name": "Michael Brown",
     "email": "michael.brown@crowdstrike-demo.com",
+    "phone": "+1-555-1003",
     "department": "Engineering",
     "designation": "Engineering Director",
     "location": "Bengaluru",
     "manager": "CTO"
+  },
+  {
+    "employeeId": "EMP004",
+    "name": "Emily Davis",
+    "email": "emily.davis@crowdstrike-demo.com",
+    "phone": "+1-555-1004",
+    "department": "Finance",
+    "designation": "Finance Manager",
+    "location": "London",
+    "manager": "Sarah Johnson"
+  },
+  {
+    "employeeId": "EMP005",
+    "name": "David Wilson",
+    "email": "david.wilson@crowdstrike-demo.com",
+    "phone": "+1-555-1005",
+    "department": "Security",
+    "designation": "Security Operations Manager",
+    "location": "Seattle",
+    "manager": "Michael Brown"
   }
 ]
