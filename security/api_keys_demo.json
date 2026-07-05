@@ -1,0 +1,27 @@
+{
+  "demoNotice": "All values in this file are fictional and created solely for CrowdStrike AIDR demonstrations.",
+
+  "applications": [
+    {
+      "application": "HR Platform",
+      "environment": "Development",
+      "apiKeyName": "HR_API_KEY_DEMO",
+      "apiKeyValue": "DEMO-HR-API-KEY-001",
+      "owner": "Engineering"
+    },
+    {
+      "application": "Payroll Service",
+      "environment": "Development",
+      "apiKeyName": "PAYROLL_API_KEY_DEMO",
+      "apiKeyValue": "DEMO-PAYROLL-KEY-002",
+      "owner": "Finance"
+    },
+    {
+      "application": "Employee Portal",
+      "environment": "Development",
+      "apiKeyName": "PORTAL_API_KEY_DEMO",
+      "apiKeyValue": "DEMO-PORTAL-KEY-003",
+      "owner": "Engineering"
+    }
+  ]
+}

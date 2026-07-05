@@ -1,20 +1,47 @@
 [
   {
     "employeeId": "EMP001",
+    "employeeName": "John Smith",
+    "email": "john.smith@crowdstrike-demo.com",
+    "phone": "+1-555-1001",
+    "department": "Engineering",
+    "designation": "Senior Software Engineer",
     "salary": 145000,
     "bonus": 12000,
-    "currency": "USD"
+    "currency": "USD",
+    "bankName": "Demo National Bank",
+    "accountNumber": "XXXX-1234",
+    "tax": 32500,
+    "netSalary": 124500
   },
   {
     "employeeId": "EMP002",
+    "employeeName": "Sarah Johnson",
+    "email": "sarah.johnson@crowdstrike-demo.com",
+    "phone": "+1-555-1002",
+    "department": "Human Resources",
+    "designation": "HR Manager",
     "salary": 118000,
     "bonus": 8500,
-    "currency": "USD"
+    "currency": "USD",
+    "bankName": "Demo National Bank",
+    "accountNumber": "XXXX-5678",
+    "tax": 24100,
+    "netSalary": 102400
   },
   {
     "employeeId": "EMP003",
+    "employeeName": "Michael Brown",
+    "email": "michael.brown@crowdstrike-demo.com",
+    "phone": "+1-555-1003",
+    "department": "Engineering",
+    "designation": "Engineering Director",
     "salary": 210000,
     "bonus": 25000,
-    "currency": "USD"
+    "currency": "USD",
+    "bankName": "Demo National Bank",
+    "accountNumber": "XXXX-9012",
+    "tax": 49800,
+    "netSalary": 185200
   }
 ]
